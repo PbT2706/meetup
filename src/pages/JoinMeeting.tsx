@@ -84,8 +84,8 @@ export default function JoinMeeting() {
     };
     getMeetingData();
   }, [ userLoaded]);
-  const appId = 2084622129;
-  const serverSecret = 'c118cd37b5b5bb4eb2652baca3d7d4f6';
+  // const appId = <ADD YOUR ID>;
+  // const serverSecret = <ADD YOUR SERVER SECRET>;
   const myMeeting = async (element:any) => {
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
      appId,
